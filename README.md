@@ -1,2 +1,1 @@
-"# ecommerce-website" 
-"# hackaton3-day3-ecommerce" 
+"# Temp0-Api-Sanity-Fetching" 
