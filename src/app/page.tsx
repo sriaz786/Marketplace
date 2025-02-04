@@ -1,10 +1,12 @@
-// src/app/page.tsx
-import Hero from '@/components/Hero';  // Import the Hero component
 
-export default function HomePage() {
+
+import Hero from "@/components/Hero";
+import Products from "./products/page";
+export default function Home() {
   return (
     <>
-      <Hero/> {/* This will render Sec1 to Sec6 only on the homepage */}
+    <Products/>
+    <Hero/>
     </>
   );
 }

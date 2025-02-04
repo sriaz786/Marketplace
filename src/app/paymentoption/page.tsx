@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const PaymentOptions = () => {
@@ -15,9 +16,11 @@ const PaymentOptions = () => {
           {/* Credit/Debit Card */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
             <div className="flex justify-center mb-4">
-              <img
+              <Image
                 src="/image/credit-card.jpeg" // Add your icon path
                 alt="Credit Card payment"
+                width={100}
+                height={100}
                 className="h-16"
               />
             </div>
@@ -35,9 +38,11 @@ const PaymentOptions = () => {
           {/* PayPal */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
             <div className="flex justify-center mb-4">
-              <img
+              <Image 
                 src="/image/paypal.png" // Add your PayPal icon path
                 alt="PayPal payment"
+                width={100}
+                height={100}
                 className="h-16"
               />
             </div>
@@ -55,9 +60,11 @@ const PaymentOptions = () => {
           {/* Bank Transfer */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
             <div className="flex justify-center mb-4">
-              <img
+              <Image
                 src="/image/bank-transfer.png" // Add your bank transfer icon path
                 alt="Bank Transfer payment"
+                width={100}
+                height={100}
                 className="h-16"
               />
             </div>
@@ -80,17 +87,21 @@ const PaymentOptions = () => {
           <div className="flex justify-center gap-8">
             {/* Apple Pay */}
             <div className="flex items-center">
-              <img
+              <Image
                 src="/image/apple-pay.png" // Add your Apple Pay icon path
                 alt="Apple Pay"
+                width={100}
+                height={100}
                 className="h-12"
               />
             </div>
             {/* Google Pay */}
             <div className="flex items-center">
-              <img
+              <Image
                 src="/image/google-pay.png" // Add your Google Pay icon path
                 alt="Google Pay"
+                width={100}
+                height={100}
                 className="h-12"
               />
             </div>
